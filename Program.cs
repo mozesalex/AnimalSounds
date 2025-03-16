@@ -40,7 +40,7 @@ class Program
 
         foreach (var animal in animals)
         {
-            Console.WriteLine($"{animal.Name} makes sound: {animal.MakeSound()}");
+            Console.WriteLine($"{animal.Name} makes sound: {animal.MakeSound()}"); 
         }
-    }
+    } 
 }
