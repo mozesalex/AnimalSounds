@@ -15,16 +15,16 @@ class Dog : IAnimal
     public string MakeSound() => "Bark";
 }
 
-class Cat : IAnimal
-{
-    public string Name => "Cat";
-    public string MakeSound() => "Meow";
-}
-
 class Cow : IAnimal
 {
     public string Name => "Cow";
     public string MakeSound() => "Moo";
+}
+
+class Cat : IAnimal
+{
+    public string Name => "Cat";
+    public string MakeSound() => "Meow";
 }
 
 class Program
